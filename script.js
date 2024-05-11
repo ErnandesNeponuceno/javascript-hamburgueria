@@ -94,6 +94,8 @@ function updateCartModal(){
         
         `
         total += item.price * item.quantity;
+        
+       
 
 
         cartItemsContainer.appendChild(cartItemElement)
@@ -104,6 +106,8 @@ function updateCartModal(){
         currency: "BRL"
 
     })
+
+    
 
     cartCounter.innerHTML = cart.length;
 
