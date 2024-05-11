@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body{
+    background-color: #f6f7f8;
+}
+
+.atalho_menu {
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.atalho_menu.active {
+    border-bottom: 1px solid white;
+}
+
+#burgers h2, #snacks h2, #bebidas h2{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul li a{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}

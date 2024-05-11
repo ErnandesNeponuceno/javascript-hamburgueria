@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Burguers DEV"/>
+    <meta property="og:image" content="website"/>
+    <meta property="og:description" content="Hamburguer para quem tem fome de codar"/>
+    <meta property="og:site_name" content="Burguers DEV"/>
+
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>BURGERS DEV</title>
+</head>
+<body>
+<!--HEADER-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img 
+                src="./assets/logo.jpg" 
+                alt="Logo burgers dev"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+            >
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">BURGERS DEV</h1>
+            <span class="text-white font-medium flex justify-center text-center">Hamburguer para quem tem fome de codar!</span>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium"> Segunda á Domingo - 18:00 as 23:00</span>
+            </div>    
+        </div>
+       
+    </header>
+    <nav class="w-full h-10 bg-zinc-900 px-2 mx-auto sticky top-0 z-40 ">
+        <ul class="w-full h-full flex justify-around items-center text-white">
+            <li class="atalho_menu" data-target="burgers"><a href="#burgers">BURGERS</a></li>
+            <li class="atalho_menu" data-target="snacks"><a href="#snacks">SNACKS</a></li>
+            <li class="atalho_menu" data-target="bebidas"><a href="#bebidas">BEBIDAS</a></li>
+        </ul>
+    </nav>
+
+
+<!--FIM HEADER-->
+
+<div class="mx-auto max-w-7xl px-2 mt-9 mb-6" id="burgers">
+    <h2 class="font-bold text-3xl" >
+        Burgers
+    </h2>
+</div>
+
+<main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16 menu" id="">
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-1.png" alt="Smash Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Smash Burger</p>
+            <p class="text-sm">Smash de black angus de 100 gramas, queijo cheddar,molho paprica especial, tomate fresco, alface crespa no pão brioche de batata artesanal.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 29,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Smash Burger"
+                data-price="29.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-4.png" alt="English Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">English Burger</p>
+            <p class="text-sm">Blend de black angus, duplo cheddar inglês, relish de cebolas e bacon, no pão brioche artesanal..
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 41,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="English Burger"
+                data-price="41.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-3.png" alt="Thai Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Thai Burger</p>
+            <p class="text-sm">Blend empanado de carne suína com curry verde thai, molho tonkatzu, pepino japonês, picles de cenoura, folhas de coentro e maionese de limão taiti no pão de gergilim..
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 44,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Thai Burger"
+                data-price="44.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-2.png" alt="Páprica Burger"
+
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Páprica Burger</p>
+            <p class="text-sm">Blend de black angus, queijo minas meia cura gratinado, cebolas caramelizadas, finas fatias de bacon defumado crocante, tomate fresco, mix de baby leaf e molho páprica especial no pão de brioche.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 44,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Paprica Burger"
+                data-price="44.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-5.png" alt="Help Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Help Burger</p>
+            <p class="text-sm">Blend de black angus, queijo cheddar com ketchup da casa, no pão brioche artesanal..
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 35,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Help Burger"
+                data-price="35.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-6.png" alt="Dumbo Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Dumbo Burger</p>
+            <p class="text-sm">Smash de black angus de 100 gramas, queijo cheddar,molho paprica especial, tomate fresco, alface crespa no pão brioche de batata artesanal.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 47,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Dumbo Burger"
+                data-price="47.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-7.png" alt="Duroc Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Duroc Burger</p>
+            <p class="text-sm">Pão com gergelim, blend black angus, bacon duroc caramelizado no melaço de páprica e gengibre, queijo cheddar inglês e molho de limão siciliano.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 47,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Duroc Burger"
+                data-price="47.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM -->  
+    <!-- INICIO ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/hamb-8.png" alt="Veggie Burger"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div>
+            <p class="font-bold">Veggie Burger</p>
+            <p class="text-sm">Cogumelos grelhados no charbroiler e gratinados com queijo minas meia cura, chutney de cebolas, berinjelas empanadas, telha de parmesão crocante, tomate fresco.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 39,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Veggie Burger"
+                data-price="39.00">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO ITEM --> 
+     
+</main>
+
+<!--INICIO SNACKS -->
+
+<div class="mx-auto max-w-7xl px-2 mt-9 mb-6" id="snacks">
+    <h2 class="font-bold text-3xl">
+        Snacks
+    </h2>
+</div>
+
+<!-- GRID SNACKS lg:grid-cols-4-->
+<div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16 menu">
+    <!-- SNACKS ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/Garrafa.jpg" alt="Garrafa Really Hot Chli Páprica"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Garrafa Really Hot Chli Páprica</p>
+            <p class="text-sm">Garrafa (275g) really hot chili páprica
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 24,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Garrafa Really Hot Chli Páprica"
+                data-price="24.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM SNACKS ITEM -->  
+    <!-- SNACKS ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/Batata.png" alt="Batata Palito Tradicional"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Batata Palito Tradicional</p>
+            <p class="text-sm">Batata palito fininha ,crocante por fora e macia por dentro.
+
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 14,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Batata Palito Tradicional"
+                data-price="14.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM SNACKS ITEM --> 
+    <!-- SNACKS ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/Batata-ervas.png" alt="Batata Palito com Ervas"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Batata Palito com Ervas</p>
+            <p class="text-sm">Batata palito fininha ,crocante por fora e macia por dentro.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 14,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Batata Palito com Ervas"
+                data-price="14.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM SNACKS ITEM --> 
+    <!-- SNACKS ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/Chips.jpg" alt="Chips de mix de raizes"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Chips de mix de raizes</p>
+            <p class="text-sm">Chips de batata asterix, mandioca, batata baroa, beterraba, batata doce e cenoura temperadas com páprica doce.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 14,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Chips de mix de raizes"
+                data-price="14.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM SNACKS ITEM --> 
+    
+</div>
+<!-- FIM DO GRID SNACKS -->
+
+<!-- FIM DO SNACKS -->
+
+<div class="mx-auto max-w-7xl px-2 mt-9 mb-6" id="bebidas">
+    <h2 class="font-bold text-3xl">
+        Bebidas
+    </h2>
+</div>
+
+<!-- GRID BEBIDAS lg:grid-cols-4-->
+<div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-20 menu" >
+    <!-- BEBIDA ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/refri-1.png" alt="Coca-cola"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Coca-Cola</p>
+            <p class="text-sm">Refrigerante lata 300ml
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 6,20</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Coca-Cola"
+                data-price="6.20"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM BEBIDA ITEM -->  
+    <!-- BEBIDA ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/agua.jpg" alt="Água mineral sem gás"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Água</p>
+            <p class="text-sm">Água mineral sem gás
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 5,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Água mineral sem gás"
+                data-price="5.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM BEBIDA ITEM -->  
+    <!-- BEBIDA ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/naturebas.jpeg" alt="Kombucha Lind Tangerina"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Naturebas</p>
+            <p class="text-sm">Kombucha Lind Tangerina
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 19,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Kombucha Lind Tangerina"
+                data-price="19.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM BEBIDA ITEM -->  
+    <!-- BEBIDA ITEM -->
+    <div class="flex gap-2">
+        <img 
+        src="./assets/suco.png" alt="Suco Natural One - Laranja"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+        <div class="w-full">
+            <p class="font-bold">Suco Natural One</p>
+            <p class="text-sm">Embalagem 300ml - Laranja
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p>R$ 11,00</p>
+                <button class="bg-gray-900 px-3 py-1 rounded add-to-cart-btn"
+                data-name="Suco Natural One - Laranja"
+                data-price="11.00"
+                title="adicionar">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM BEBIDA ITEM -->  
+
+</div>
+<!-- GRID BEBIDAS -->
+
+<!-- MODAL CART -->
+<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] hidden items-center justify-center" id="cart-modal">
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+        <p class="font-bold">Total: <span id="cart-total">0.00</span> </p>
+
+        <p class="font-bold mt-4">Nome completo:</p>
+        <input 
+            type="text"
+            placeholder="Digite seu Nome completo"
+            id="nome_completo"
+            class="w-full border-2 p-1 rounded my-1"
+        />
+
+        <p class="font-bold mt-4">Endereço de entrega:</p>
+        <input 
+            type="text"
+            placeholder="Digite seu endereço completo"
+            id="address"
+            class="w-full border-2 p-1 rounded my-1"
+        />
+
+        <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+        <p class="text-red-500 hidden" id="name-warn">Digite seu nome completo!</p>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-modal-btn" class="bg-gray-300 px-4 py-1 rounded">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+        </div>
+    </div>
+</div>
+
+<!-- FIM MODAL CART -->
+
+<!-- BUTTON CART FOOTER -->
+<footer class="w-full bg-red-500 py-4 fixed bottom-0 z-40 flex items-center justify-center">
+    <button class="flex items-center gap-2 text-white font-bold" id="cart-btn"
+    >
+        (<span id="cart-count">0</span>)
+        Ver meu carrinho
+        <i class="fa fa-cart-plus text-lg text-white "></i>
+    </button>
+</footer>
+<!-- FIM BUTTON CART FOOTER -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./menu_list.js"></script>
+<script src="./script.js"></script>
+
+
+
+</body>
+</html>
