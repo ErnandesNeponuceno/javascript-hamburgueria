@@ -9,7 +9,6 @@ const closeModalBtn = document.getElementById("close-modal-btn")
 const cartCounter = document.getElementById("cart-count")
 const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
-
 const nameInput = document.getElementById("nome_completo")
 const nameWarn = document.getElementById("name-warn")
 
@@ -212,8 +211,6 @@ checkOutBtn.addEventListener("click", function(){
     cartModal.style.display = "none"
 
 })
-
-
 
 function checkRestaurantOpen(){
     const data = new Date();

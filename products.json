@@ -1,0 +1,154 @@
+{
+    "burgers": [
+      {
+        "img": "./assets/img/hamb-1.png",
+        "alt": "Smash Burger",
+        "nome": "Smash Burger",
+        "descricao": "Smash de black angus de 100 gramas, queijo cheddar,molho paprica especial, tomate fresco, alface crespa no pão brioche de batata artesanal.",
+        "preco": "29,00",
+        "data-name": "Smash Burger",
+        "data-price": "29.00"
+      },
+      {
+        "img": "./assets/img/hamb-4.png",
+        "alt": "English Burger",
+        "nome": "English Burger",
+        "descricao": "Blend de black angus, duplo cheddar inglês, relish de cebolas e bacon, no pão brioche artesanal.",
+        "preco": "41,00",
+        "data-name": "English Burger",
+        "data-price": "41.00"
+      },
+      {
+        "img": "./assets/img/hamb-3.png",
+        "alt": "Thai Burger",
+        "nome": "Thai Burger",
+        "descricao": "Blend empanado de carne suína com curry verde thai, molho tonkatzu, pepino japonês, picles de cenoura, folhas de coentro e maionese de limão taiti no pão de gergilim.",
+        "preco": "44,00",
+        "data-name": "Thai Burger",
+        "data-price": "44.00"
+      },
+      {
+        "img": "./assets/img/hamb-2.png",
+        "alt": "Páprica Burger",
+        "nome": "Páprica Burger",
+        "descricao": "Blend de black angus, queijo minas meia cura gratinado, cebolas caramelizadas, finas fatias de bacon defumado crocante, tomate fresco, mix de baby leaf e molho páprica especial no pão de brioche.",
+        "preco": "44,00",
+        "data-name": "Páprica Burger",
+        "data-price": "44.00"
+      },
+      {
+        "img": "./assets/img/hamb-5.png",
+        "alt": "Help Burger",
+        "nome": "Help Burger",
+        "descricao": "Blend de black angus, queijo cheddar com ketchup da casa, no pão brioche artesanal.",
+        "preco": "35,00",
+        "data-name": "Help Burger",
+        "data-price": "35.00"
+      },
+      {
+        "img": "./assets/img/hamb-6.png",
+        "alt": "Dumbo Burger",
+        "nome": "Dumbo Burger",
+        "descricao": "Smash de black angus de 100 gramas, queijo cheddar,molho paprica especial, tomate fresco, alface crespa no pão brioche de batata artesanal.",
+        "preco": "47,00",
+        "data-name": "Dumbo Burger",
+        "data-price": "47.00"
+      },
+      {
+        "img": "./assets/img/hamb-7.png",
+        "alt": "Duroc Burger",
+        "nome": "Duroc Burger",
+        "descricao": "Pão com gergelim, blend black angus, bacon duroc caramelizado no melaço de páprica e gengibre, queijo cheddar inglês e molho de limão siciliano.",
+        "preco": "47,00",
+        "data-name": "Duroc Burger",
+        "data-price": "47.00"
+      },
+      {
+        "img": "./assets/img/hamb-8.png",
+        "alt": "Veggie Burger",
+        "nome": "Veggie Burger",
+        "descricao": "Cogumelos grelhados no charbroiler e gratinados com queijo minas meia cura, chutney de cebolas, berinjelas empanadas, telha de parmesão crocante, tomate fresco.",
+        "preco": "39,00",
+        "data-name": "Veggie Burger",
+        "data-price": "39.00"
+      }
+    ],
+    "snacks": [
+      {
+        "img": "./assets/img/Garrafa.jpg",
+        "alt": "Garrafa Really Hot Chli Páprica",
+        "nome": "Garrafa Really Hot Chli Páprica",
+        "descricao": "Garrafa (275g) really hot chili páprica",
+        "preco": "24,00",
+        "data-name": "Garrafa Really Hot Chli Páprica",
+        "data-price": "24.00"
+      },
+      {
+        "img": "./assets/img/Batata.png",
+        "alt": "Batata Palito Tradicional",
+        "nome": "Batata Palito Tradicional",
+        "descricao": "Batata palito fininha, crocante por fora e macia por dentro.",
+        "preco": "14,00",
+        "data-name": "Batata Palito Tradicional",
+        "data-price": "14.00"
+      },
+      {
+        "img": "./assets/img/Batata-ervas.png",
+        "alt": "Batata Palito com Ervas",
+        "nome": "Batata Palito com Ervas",
+        "descricao": "Batata palito fininha, crocante por fora e macia por dentro.",
+        "preco": "14,00",
+        "data-name": "Batata Palito com Ervas",
+        "data-price": "14.00"
+      },
+      {
+        "img": "./assets/img/Chips.jpg",
+        "alt": "Chips de mix de raizes",
+        "nome": "Chips de mix de raizes",
+        "descricao": "Chips de batata asterix, mandioca, batata baroa, beterraba, batata doce e cenoura temperadas com páprica doce.",
+        "preco": "14,00",
+        "data-name": "Chips de mix de raizes",
+        "data-price": "14.00"
+      }
+    ],
+    "bebidas": [
+      {
+        "img": "./assets/img/refri-1.png",
+        "alt": "Coca-Cola",
+        "nome": "Coca-Cola",
+        "descricao": "Refrigerante lata 300ml",
+        "preco": "6,20",
+        "data-name": "Coca-Cola",
+        "data-price": "6.20"
+      },
+      {
+        "img": "./assets/img/agua.jpg",
+        "alt": "Água mineral sem gás",
+        "nome": "Água",
+        "descricao": "Água mineral sem gás",
+        "preco": "5,00",
+        "data-name": "Água mineral sem gás",
+        "data-price": "5.00"
+      },
+      {
+        "img": "./assets/img/naturebas.jpeg",
+        "alt": "Kombucha Lind Tangerina",
+        "nome": "Naturebas",
+        "descricao": "Kombucha Lind Tangerina",
+        "preco": "19,00",
+        "data-name": "Kombucha Lind Tangerina",
+        "data-price": "19.00"
+      },
+      {
+        "img": "./assets/img/suco.png",
+        "alt": "Suco Natural One - Laranja",
+        "nome": "Suco Natural One",
+        "descricao": "Embalagem 300ml - Laranja",
+        "preco": "11,00",
+        "data-name": "Suco Natural One - Laranja",
+        "data-price": "11.00"
+      }
+    ]
+  }
+  
+  
