@@ -9,18 +9,6 @@ function isElementVisible(element) {
     );
 }
 
-// Adiciona um event listener para cada item do menu
-document.querySelectorAll('.atalho_menu').forEach(item => {
-    item.addEventListener('click', () => {
-        // Remove a classe 'active' de todos os itens
-        document.querySelectorAll('.atalho_menu').forEach(menuItem => {
-            menuItem.classList.remove('active');
-        });
-        // Adiciona a classe 'active' apenas ao item clicado
-        item.classList.add('active');
-    });
-});
-
 // Verifica se o item está na tela e adiciona a classe 'active' quando necessário
 window.addEventListener('scroll', () => {
     document.querySelectorAll('.atalho_menu').forEach(item => {
@@ -34,3 +22,17 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+
+// Adiciona um event listener para cada item do menu
+document.querySelectorAll('.atalho_menu').forEach(item => {
+    item.addEventListener('click', () => {
+        // Remove a classe 'active' de todos os itens
+        document.querySelectorAll('.atalho_menu').forEach(menuItem => {
+            menuItem.classList.remove('active');
+        });
+        // Adiciona a classe 'active' apenas ao item clicado
+        item.classList.add('active');
+    });
+});
+
