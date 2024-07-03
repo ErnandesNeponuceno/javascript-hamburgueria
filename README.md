@@ -11,8 +11,6 @@ Os temas abordados são:<br>
 
 ## Estrutura do Projeto:
 
-## Estrutura do Projeto
-
 - **index.html:** Arquivo HTML principal.
 - **assets/**
   - **css/**
