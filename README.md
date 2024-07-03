@@ -11,20 +11,25 @@ Os temas abordados são:<br>
 
 ## Estrutura do Projeto:
 
-- index.html: Arquivo HTML principal.
-- assets/css/styles.css: Arquivo CSS para estilização adicional.
-- assets/css/output.css: Arquivo CSS de saida do tailwind.
-- assets/js/script.js: Arquivo JavaScript contendo as funcionalidades descritas acima.
-- assets/js/menu_list.js: Arquivo JavaScript responsável por verificar visibilidade de elementos na tela e adicionar estilização.
-- assets/js/menu_itens.js: Arquivo JavaScript responsável pela renderização dinâmica dos elementos.
-- products.json: Arquivo json com dados dos produtos.
+## Estrutura do Projeto
+
+- **index.html:** Arquivo HTML principal.
+- **assets/**
+  - **css/**
+    - **styles.css:** Arquivo CSS para estilização adicional.
+    - **output.css:** Arquivo CSS de saída do Tailwind.
+  - **js/**
+    - **script.js:** Arquivo JavaScript contendo as funcionalidades descritas acima.
+    - **menu_list.js:** Arquivo JavaScript responsável por verificar visibilidade de elementos na tela e adicionar estilização.
+    - **menu_itens.js:** Arquivo JavaScript responsável pela renderização dinâmica dos elementos.
+- **products.json:** Arquivo JSON com dados dos produtos.
 
 ## 💻 Tecnologias utilizadas nesse projeto:
 
 <div style="display: inline_block">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-2.2.19-%23000000?style=for-the-badge&logo=tailwindcss&logoColor=white">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
   <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
 
@@ -68,7 +73,7 @@ A função isElementVisible verifica se todas as bordas do elemento (top, left, 
 ![code](assets/img/code2.png)
 
 ## 💻 Preview:
-- Veja como ficou o projeto acessando: [Link]()
+- Veja como ficou o projeto acessando: [Link](https://javascript-hamburgueria.vercel.app/)
   
 ![Imagem do Projeto](assets/img/tela.png)
 
