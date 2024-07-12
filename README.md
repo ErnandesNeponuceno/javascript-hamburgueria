@@ -1,6 +1,7 @@
 ## 🏋️‍♂️ Projeto HTML + Tailwind + JavaScript.
 
 Criação de uma site de hamburgueria.  <br>
+
 Os temas abordados são:<br>
 - Manipulação do DOM.
 - Manipulação de eventos.
